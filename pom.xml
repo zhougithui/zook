@@ -8,6 +8,7 @@
     <properties>
         <lanmao-runtime-version>0.0.6</lanmao-runtime-version>
         <lanmao-util-version>0.0.3</lanmao-util-version>
+        <zk-curator-version>4.2.0</zk-curator-version>
     </properties>
 
     <dependencies>
@@ -64,6 +65,39 @@
             <version>1.7.12</version>
         </dependency>
         <!-- end log -->
+
+
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>${zk-curator-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-client</artifactId>
+            <version>${zk-curator-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>${zk-curator-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-test</artifactId>
+            <version>${zk-curator-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-x-discovery</artifactId>
+            <version>${zk-curator-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-x-async</artifactId>
+            <version>${zk-curator-version}</version>
+        </dependency>
+
     </dependencies>
 
 
