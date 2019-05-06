@@ -2,6 +2,7 @@ package com.awake.zoo.curator.queue;
 
 import java.util.Date;
 
+import com.awake.zoo.curator.TestServerFactory;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.api.CuratorEvent;

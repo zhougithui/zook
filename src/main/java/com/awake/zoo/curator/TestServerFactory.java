@@ -1,4 +1,4 @@
-package com.awake.zoo.curator.queue;
+package com.awake.zoo.curator;
 
 import org.apache.curator.test.InstanceSpec;
 import org.apache.curator.test.TestingServer;

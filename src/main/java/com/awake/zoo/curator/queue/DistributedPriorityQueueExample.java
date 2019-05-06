@@ -1,5 +1,6 @@
 package com.awake.zoo.curator.queue;
 
+import com.awake.zoo.curator.TestServerFactory;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.api.CuratorEvent;

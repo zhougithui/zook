@@ -1,10 +1,10 @@
-package com.awake.zoo.curator;
+package com.awake.zoo.curator.cache;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-import com.awake.zoo.curator.queue.TestServerFactory;
+import com.awake.zoo.curator.TestServerFactory;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.recipes.cache.NodeCache;
