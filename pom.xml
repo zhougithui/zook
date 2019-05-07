@@ -89,6 +89,11 @@
         </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>
+            <artifactId>curator-examples</artifactId>
+            <version>${zk-curator-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
             <artifactId>curator-x-discovery</artifactId>
             <version>${zk-curator-version}</version>
         </dependency>
